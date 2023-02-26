@@ -1,0 +1,456 @@
+/*
+	Template 2018 Notebook
+    http://www.tooplate.com/view/2018-notebook
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	background-repeat: repeat;
+	background-image: url(../images/tooplate_body.jpg);
+	background-color: #FFFFFF;
+	
+}
+
+
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 0;
+	margin-right: 0;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	padding-left: 5px;
+}
+h2 { font-size: 28px; margin: 0 0 20px; padding: 5px 0 10px; font-weight: 700; background: url(../images/tooplate_divider.jpg) repeat-x bottom }
+h3 {
+	font-size: 25px;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	width: 630px;
+}
+h4 {
+	font-size: 14px;
+	margin: 0 0 5px 0;
+	text-align: center;
+}
+h5 {
+	font-size: 22px;
+	font-weight: normal;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	line-height: 40px;
+	width: 225px;
+}
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h15 {
+	clear: both;
+	width:100%;
+	height: 15px;
+}
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.float_l {
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.float_r {
+	float: right;
+	margin-right: 10px;
+}
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 1px solid #ded6ce; 
+	padding: 4px; 
+	margin-bottom: 10px; 
+}
+
+.image_fl {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 3px;
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 30px; 
+}
+
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#333; }
+cite span { color: #666; }
+em {
+	color: #CC0000;
+	font-size: 16px;
+}
+
+#tooplate_main { 
+	clear: both;
+	width: 780px;
+	padding: 0 10px;
+	background: url(../images/tooplate_main_repeat.png) repeat-y
+}
+.tooplate_list { 
+	margin: 20px 0 20px 20px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.tooplate_list li { 
+	background: transparent url(images/tooplate_list.png) no-repeat; 
+	margin:0 0 20px; 
+	padding: 0 0 0 20px; 	
+	line-height: 1em; 
+}
+
+.tooplate_list li a { 
+	color: #fff; 
+}
+
+.tooplate_list li a:hover { 
+	color: #ff4301; 
+}
+
+.btn_more a {
+	display: inline-block;
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+	padding: 2px 15px 2px 0;
+	text-decoration: none;
+}
+
+.btn_more a:hover {
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+.col_400 {
+	width: 500px;
+} 
+.col_300 { width: 300px; }
+.col_280 { width: 280px; }
+.col_380 {
+	width: 410px;
+}
+
+
+.program_list {
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+
+.program_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.program_list li a {
+	font-size: 15px;
+	display: block;
+	height: 24px;
+	margin-bottom: 0px;
+	padding-left: 25px;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	line-height: 25px;
+}
+.program_list li a:hover {
+	display: block;
+	color: #FF0000;
+	font-style: italic;
+}
+.program_list li .program_img {
+	background-image: url(images/bulet.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 10px;
+}
+
+.ourschool_list {
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.ourschool_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.ourschool_list li a {
+	font-size: 16px;
+	display: block;
+	height: auto;
+	margin-bottom: 5px;
+	padding-left: 35px;
+	color: #7a9700;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.ourschool_list li a:hover {
+	display: block;
+	color: #7a9700;
+	font-style: italic;	
+}
+.ourschool_list li .ourschool_img {
+	background-image: url(images/onebit_01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.learning_list {
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	width: 250px;
+}
+.learning_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.learning_list li a {
+	font-size: 12px;
+	display: block;
+	height: 20px;
+	margin-bottom: 5px;
+	padding-left: 35px;
+	color: #666666;
+	padding-bottom: 2px;
+	width: 270px;
+	text-decoration: underline;
+}
+.learning_list li .learning_one {
+	background-image: url(images/onebit_01.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+.service_list {
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	width: 250px;
+}
+.service_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+.service_list li a {
+	font-size: 12px;
+	display: block;
+	height: 30px;
+	margin-bottom: 5px;
+	padding-left: 40px;
+	color: #666666;
+	padding-bottom: 2px;
+	width: 270px;
+	text-decoration: underline;
+	padding-top: 10px;
+}
+.service_list li .service_one {
+	background-image: url(images/onebit_08.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.service_list li .service_two { 
+	background: url(images/onebit_11.png) center left no-repeat; 
+}
+
+.service_list li .service_three { 
+	background: url(images/onebit_17.png) center left no-repeat; 
+}
+
+.service_list li .service_four { 
+	background: url(images/onebit_21.png) center left no-repeat; 
+}
+
+.service_list li .service_five { 
+	background: url(images/onebit_12.png) center left no-repeat; 
+}
+
+
+/*--------------Staff List ------------------*/
+
+.Staff_list {
+	padding: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	width: 250px;
+}
+.Staff_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+.Staff_list li a {
+	font-size: 12px;
+	display: block;
+	height: 30px;
+	margin-bottom: 5px;
+	padding-left: 40px;
+	color: #666666;
+	padding-bottom: 2px;
+	width: 270px;
+	text-decoration: underline;
+	padding-top: 10px;
+}
+.Staff_list li .Staff_one {
+	background-image: url(images/onebit_08.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.Staff_list li .Staff_two { 
+	background: url(images/onebit_11.png) center left no-repeat; 
+}
+
+.Staff_list li .Staff_three { 
+	background: url(images/onebit_17.png) center left no-repeat; 
+}
+
+.Staff_list li .Staff_four { 
+	background: url(images/onebit_21.png) center left no-repeat; 
+}
+
+.Staff_list li .Staff_five { 
+	background: url(images/onebit_12.png) center left no-repeat; 
+}
+
+/*--------------Staff List ------------------*/
+
+
+#contact_form {  
+	padding: 0; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	background: #eeeeee; 
+	border: 1px solid #dfdfdf; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px; 
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px; 
+}
+
+#contact_form form textarea { 
+	width: 368px;  
+	height: 150px; 
+	padding: 5px; 
+	background: #eeeeee; 
+	border: 1px solid #dfdfdf; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px; 
+}
+
+#contact_form form .submit_btn {
+	margin: 10px 0px;
+	padding: 5px 14px;
+	color: #444;
+	background: #eeeeee; 
+	border: 1px solid #dfdfdf;
+	font-size: 14px;
+}
+
+/* gallery */
+#gallery_container {
+	margin-top: 0px;
+	height: auto;
+	width: 900px;
+	float: left;
+	margin-left: 15px;
+} 
+
+.gallery_box {
+	width: 250px;
+	height: 90px;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+.subheader {
+	float: left;
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: bold;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	line-height: 22px;
+	margin-bottom: 10px;
+	height: 32px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+ 
+
+/* end of gallery */
